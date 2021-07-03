@@ -1,3 +1,6 @@
+*.swp
+.DS_Store
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -127,3 +130,8 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# CDK asset staging directory
+.cdk.staging
+cdk.out
+package-lock.json
